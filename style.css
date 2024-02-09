@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -30px;
+}
+
+button.operator, button.decimal, button.equal {
+    padding: 0 20px;
+    margin: 4px;
+    line-height: 3;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px ;
+    border-style: solid;
+    border-width: 1.5px;
+    color: black;    
+    background-color: #DADCE0;
+    width: 78px;
+    height: 78px;
+}
+
+button.number {
+    padding: 0 20px;
+    margin: 4px;
+    line-height: 3;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    border: outset;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.37);
+    width: 78px;
+    height: 78px;
+}
+
+button.equal {
+    color: white;
+    background-color: #0db2ff;
+    border: 30px;
+}
+
+button.decimal {
+    font-weight: 700;
+}
+
+button.clear {
+    padding: 0 20px;
+    margin: -3px;
+    margin-right: 3px;
+    margin-left: -6px;
+    margin-top: 12px;
+    line-height: 3;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px ;
+    border-style: solid black;
+    border-width: 2px;
+    color: black;    
+    background-color: #DADCE0;
+    width: 78px;
+    height: 78px;
+}
+
+.number:hover {
+    background-image: linear-gradient(to bottom right, #5ad2f0, #9fffdf, grey);
+}
+
+button.operator:hover {
+    background-image: linear-gradient(to bottom right, #5ad2f0, white, grey);
+} 
+
+button.decimal:hover {
+    background-image: linear-gradient(to bottom right, #5ad2f0, white, grey);
+}   
+
+button.equal:hover{
+    background-color: rgb(223, 220, 220);
+}
+
+button.clear:hover {
+    background-color: orange;
+}
+
+#screen {
+    width: 252px;
+    height: 72px;
+    border: 1px solid #0db2ff;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.first-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.previous {
+    font-size: 25px;
+}
+
+.current {
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 46px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
